@@ -18,12 +18,15 @@ body {
   text-align: center;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   background-color: rgba(240, 248, 255, 0.829);
   width: fit-content;
   margin: 20px 20px;
-  display: flex;
-    justify-content: center;
   padding: 20px;
   border-radius: 10%;
   border: 3px solid rgb(255, 252, 252);
